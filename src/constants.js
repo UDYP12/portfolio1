@@ -45,7 +45,7 @@ import vpsLogo from './assets/education_logo/KBP.jpeg';
 
 // Project Section Logo's
 import githubdetLogo from './assets/work_logo/mygit.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+import csprepLogo from './assets/work_logo/bdyproject.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
 import npmLogo from './assets/work_logo/npm.png';
@@ -194,16 +194,16 @@ export const SkillsInfo = [
       github: "https://github.com/UDYP12/GithubFinder.git",
       webapp: "https://udypawar.netlify.app/",
     },
-    // {
-    //   id: 1,
-    //   title: "CS Prep",
-    //   description:
-    //     "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    //   image: csprepLogo,
-    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    //   github: "https://github.com/codingmastr/CSPrep",
-    //   webapp: "https://csprep.netlify.app/",
-    // },
+    {
+      id: 1,
+      title: "Bday Countdown Clock",
+      description:
+        "A full-stack birthday countdown platform designed to help users celebrate special moments with excitement and ease. The platform allows users to set up birthday countdowns for themselves, friends, or family, and provides real-time clocks showing days, hours, minutes, and seconds remaining. Users can also customize events, track upcoming birthdays, and share countdowns — making every celebration memorable and timely.",
+      image: csprepLogo,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/UDYP12/bdytracker",
+      webapp: "https://bdytrackers.netlify.app/",
+    },
     // {
     //   id: 2,
     //   title: "Movie Recommendation App",
